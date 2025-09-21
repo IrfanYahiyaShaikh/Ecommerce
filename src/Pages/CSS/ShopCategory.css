@@ -1,25 +1,26 @@
-.shopcatgory-banner{
+.shopcategory-banner{
     display: block;
     margin: 30px auto;
-    width: 82px;
+    width: 82%;
 }
-.shopcatgory-indexSort{
+.shopcategory-indexSort{
     display: flex;
     margin: 0px 170px;
     justify-content: space-between;
     align-items: center;
 }
-.shopcatgory-sort{
+.shopcategory-sort{
     padding: 10px 20px;
     border-radius: 40px;
     border: 1px solid #888;
 }
-.shopcatgory-indexSort p span{
+.shopcategory-indexSort p span{
     font-weight: 600;
 }
-.shopcatgory-products{
+.shopcategory-products{
    margin: 20px 170px;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    row-gap: 80px;
+   margin: 5px 5px 5px 5px;
 }
